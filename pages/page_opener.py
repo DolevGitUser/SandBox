@@ -39,4 +39,3 @@ class PageOpener:
         else:
             raise ValueError(f"Unsupported locator type: {locator_type}")
         element.fill(text)
-
